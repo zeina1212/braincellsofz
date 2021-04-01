@@ -1,0 +1,36 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	background: url("sparkle.gif") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+ 
+}
+
+header{
+	background-color: rgb(47, 4, 70);
+}
+
+.text-uppercase {
+	color: rgb(85, 0, 0);
+	text-decoration: underline;
+	text-decoration-color: rgb(47, 4, 70);
+	font-size: 5em;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+
+.buffer {
+	height: 350px;
+}
+
+.btn-outline-secondary {
+	background-color: rgb(85, 0, 0);
+	font-size: 3em;
+}
+
+a {
+	color: white;
+	text-shadow: 2px 2px rgb(47, 4, 70) ;
+}

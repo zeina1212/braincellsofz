@@ -1,0 +1,132 @@
+*{  margin: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-weight: bold;
+}
+body
+{
+  background: url("https://images.creativemarket.com/0.1.0/ps/1020711/580/386/m2/fpnw/wm0/278patt-2-.jpg?1456262070&s=d6b40eeb7d894e2da6765e41ce3c79eb")
+	no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1
+ { color: 29, 5, 58;
+   font-size: 30px;
+ }
+h2
+ { color: 76, 39, 140;
+   font-size: 40px;
+ }
+
+h3
+ { color: darkslateblue;
+   font-size: 30px;
+ }
+
+h4
+ { color: darkslateblue;
+   font-size: 25px;
+ }
+
+h5
+ { color: rgb(47, 4, 70);
+   font-size: 50px;
+ }
+
+h6
+ { color: rgb(47, 4, 70);
+   font-size: 40px;
+ }
+
+p{
+   font-size: 20px;
+   background-color: rgba(255,255,255,0.5);
+ }
+
+img
+ {width: 410px; height: 410px;
+align-items: center;}
+
+table {
+            margin: 0;
+          }
+
+
+          tr {
+            display: flex;
+            flex-direction: row;
+          }
+
+
+          table tr td img {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: auto;
+            border: none;
+          }
+
+
+
+          table tr td img:hover {
+          width: 300px;
+          height: auto;
+          border: none;
+        }
+
+
+
+        td {
+          font-weight: bold;
+          display: flex;
+
+          flex-direction: column;
+          align-content: space-around;
+          justify-content: center;
+        }
+.navbar
+{
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px;
+	padding: 10px;
+	background-color: cadetblue;
+	border: 30px;
+}
+
+.navbar a
+{
+	font-size: 20px;
+	color: darkslateblue;
+	text-decoration: none;
+}
+
+@-webkit-keyframes rotate {
+from { -webkit-transform: rotate(0deg); }
+to { -webkit-transform: rotate(90deg); }
+}
+.footer {
+	display: flex;
+justify-content: : flex-end;
+bottom: 0;
+}
+
+.footer img {
+height: 60px;
+width: auto;
+border: none;
+margin: 0;
+}
+
+.footer img:hover {
+animation: rotate 0.7s ease-in 2 alternate both;
+filter: brightness(110%);
+filter: drop-shadow(5px 5px 5px #B8FEE1);
+transition: all 1s ease-in-out;
+}
